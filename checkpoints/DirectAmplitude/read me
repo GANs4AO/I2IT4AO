@@ -25,5 +25,5 @@ These need to be recombined and extracted before using with the the python noteb
 
 To Extract the multi zip archive (in the folder with the zips):
 cat 65_net_G.tar.xz.* > 65_net_G.tar.xz
-tar -xvj 65_net_G.tar.xz
+tar -xvf 65_net_G.tar.xz
 ###############################
