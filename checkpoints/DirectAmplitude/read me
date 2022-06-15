@@ -1,0 +1,21 @@
+DirectAmplitude trained result. 
+Epoch 65 and 45
+
+data formatting:
+
+WFS divided through by 1200000
+
+phase screen remove piston (div by average in pupil), div by 5 (effective size reduced by 10) and add 0.5 for network.
+  to restore, reverse this process.
+
+Windspeed 10m/s
+r0 range:
+0.093
+0.15
+0.20
+0.25
+0.30
+0.35
+0.40
+
+
