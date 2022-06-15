@@ -5,7 +5,9 @@ Please cite this paper if you use this code in your research.
 
 This code was written / adapted by Jeffrey Smith and Jesse Cranney.
 
-To use pretrained model from paper  -after downloading the repo, go into the checkpoint folder and extract the generator network from zips (see the read me in the folder).
+To view analysis workflow click on the GAOL_control.ipynb file which is pre calculated for a typical set of parameters.
+
+To use pretrained model from paper after downloading the repo, go into the checkpoint folder and extract the generator network from zips (see the 'read me' in the folder).
 
 To train your own model, run the generator script to build a dataset with COMPASS, then train using the command (feel free to vary parameters):
 
