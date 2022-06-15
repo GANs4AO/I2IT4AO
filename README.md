@@ -1,7 +1,7 @@
 # Image to Image Translation for Adaptive Optics (I2IT4AO)
 
-
-
+Requires working COMPASS tools to run. For installation of COMPASS go to:
+https://anr-compass.github.io/compass-new/install.html
 
 
 
