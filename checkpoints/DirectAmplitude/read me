@@ -24,6 +24,6 @@ Due to Size requirements of github, the generator has been compressed and split 
 These need to be recombined and extracted before using with the the python notebook:
 
 To Extract the multi zip archive (in the folder with the zips):
-cat 65_net_G.tar.xz.*
+cat 65_net_G.tar.xz.* > 65_net_G.tar.xz
 tar -xvj 65_net_G.tar.xz
 ###############################
