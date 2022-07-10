@@ -39,3 +39,13 @@ https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
 Project based on this paper:
 Image-to-Image Translation with Conditional Adversarial Networks.
 Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros. In CVPR 2017. [Bibtex]
+
+This work was supported in part by Oracle Cloud credits
+and related resources provided by the Oracle for Research
+program.
+
+This research was undertaken with the assistance of re-
+sources from the National Computational Infrastructure
+(NCI Australia), an NCRIS enabled capability supported by
+the Australian Government.
+
