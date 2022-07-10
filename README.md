@@ -24,7 +24,7 @@ Animation for one of our more recent simulated experiments - using SPHERE parame
 
 ![animated_from_images](https://user-images.githubusercontent.com/104841506/178138053-ff97923d-7a43-4487-b406-d550143b9194.gif)
 
-*note that while this looks impresive, we are just subtracting the inferred wavefront from the closed loop output and calculating the PSF from this difference in the case of 'AI on'. While this gives a good look at the instataneous correction this example is not a real time control experiment. SPHERE instrument detail: https://www.eso.org/sci/facilities/paranal/instruments/sphere.html
+*note that while this looks impresive, we are just subtracting the inferred wavefront from the closed loop output and calculating the PSF from this difference in the case of 'AI on'. While this gives a good look at the instataneous correction, this example is not a real time control experiment. SPHERE instrument detail: https://www.eso.org/sci/facilities/paranal/instruments/sphere.html
 
 
 #
