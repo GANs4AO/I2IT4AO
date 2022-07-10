@@ -37,8 +37,12 @@ Original code repo used as base for research work here:
 https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
 
 Project based on this paper:
-Image-to-Image Translation with Conditional Adversarial Networks.
-Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros. In CVPR 2017. [Bibtex]
+_Image-to-Image Translation with Conditional Adversarial Networks.
+Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros. In CVPR 2017. [Bibtex]_
+
+Our work relies heavily of Numerical methods (and code / methods) developed by this work:
+_F Ferreira, E Gendron, G Rousset, and D Gratadour. Numerical estimation of wavefront error breakdown in adaptive optics. 
+Astronomy and astrophysics (Berlin), 616:A102, 2018a_
 
 This work was supported in part by Oracle Cloud credits
 and related resources provided by the Oracle for Research
