@@ -3,10 +3,11 @@
 
 Supporting code for conference proceedings:
 
-UAI 2022 paper "Enhanced Adaptive Optics Control with Image to Image Translation"  and
-SPIE AO VIII paper "Image to image translation for wavefront and PSF estimation" 
+UAI 2022 paper "**Enhanced Adaptive Optics Control with Image to Image Translation**"  and
 
-by Jeffrey Smith, Jesse Craney, Charles Gretton and Damien Gratadour.
+SPIE AO VIII paper "**Image to image translation for wavefront and PSF estimation**" 
+
+**by Jeffrey Smith, Jesse Craney, Charles Gretton and Damien Gratadour.**
 Please cite these papers if you use this code in your research.
 
 This code was written / adapted by Jeffrey Smith and Jesse Cranney.
@@ -23,7 +24,7 @@ Animation for one of our more recent simulated experiments - using SPHERE parame
 
 ![animated_from_images](https://user-images.githubusercontent.com/104841506/178138053-ff97923d-7a43-4487-b406-d550143b9194.gif)
 
-**note that while this looks impresive, we are just subtracting the inferred wavefront from the closed loop output and calculating the PSF from this difference in the case of 'AI on'. While this gives a good look at the instataneous correction this example is not a real time control experiment.
+*note that while this looks impresive, we are just subtracting the inferred wavefront from the closed loop output and calculating the PSF from this difference in the case of 'AI on'. While this gives a good look at the instataneous correction this example is not a real time control experiment.
 
 #
 #
