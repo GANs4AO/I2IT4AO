@@ -20,7 +20,9 @@ To train your own model, run the generator script to build a dataset with COMPAS
 python I2IT_train.py --dataroot ./r0_093_W10_p512_s9999/ --load_size=512 --netG=unet_256 --input_nc=1 --output_nc=1 --dataset_mode pistonDivConst10 --name test_GAOL --model pix2pixExM --direction AtoB --ngf 64 --ndf 64 --lambda_L1 150 --lambda_Ex 30
 
 Animation for one of our more recent simulated experiments - using SPHERE parameters and including the DM shape with the Wavefront Sensor image:
+
 ![animated_from_images](https://user-images.githubusercontent.com/104841506/178138053-ff97923d-7a43-4487-b406-d550143b9194.gif)
+
 **note that while this looks impresive, we are just subtracting the inferred wavefront from the closed loop output and calculating the PSF from this difference in the case of 'AI on'. While this gives a good look at the instataneous correction this example is not a real time control experiment.
 
 #
