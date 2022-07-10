@@ -1,8 +1,8 @@
 # Image to Image Translation for Adaptive Optics (I2IT4AO) 
 # *** Under Construction***
 
-Code support UAI 2022 paper "Enhanced Adaptive Optics Control with Image to Image Translation" by Jeffrey Smith, Jesse Craney, Charles Gretton and Damien Gratadour.
-Please cite this paper if you use this code in your research.
+Code support UAI 2022 paper "Enhanced Adaptive Optics Control with Image to Image Translation" and SPIE AO VIII paper "Image to image translation for wavefront and PSF estimation" by Jeffrey Smith, Jesse Craney, Charles Gretton and Damien Gratadour.
+Please cite these papers if you use this code in your research.
 
 This code was written / adapted by Jeffrey Smith and Jesse Cranney.
 
