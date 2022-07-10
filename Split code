@@ -1,0 +1,27 @@
+import drax
+import gamora
+import numpy as np
+import matplotlib.pyplot as plt
+plt.ion()
+ 
+E = '65'
+r0 = '10'
+param_filename = 'r0_'+r0+'_W10_p512_s3333.py'
+params = 'r_'+r0+'_W10_E'+E+'_S3333'
+exp_name = 'DirectAmplitude'
+ 
+IMIT_filename = '/home/jeff/GITs/wavefrontestimation_i2it/results/'+ exp_name +'/LE_PSF_'+ params +'.npz'
+IMIT_Sim_filename = '/home/jeff/GITs/wavefrontestimation_i2it/results/'+ exp_name +'/LE_PSF_Sim_'+ params + '.npz'
+roket_file = '/home/jeff/roket_output/batch/roket_'+ param_filename +'.h5'
+_,_,GAM_PSF_FIT,_ = gamora.psf_rec_Vii(roket_file)
+_,_,GAM_PSF_NOTFIT,_ = gamora.psf_rec_Vii(roket_file, fitting=False)
+Rok_PSF = drax.get_tar_image(roket_file)
+P2S_PSF = np.load(IMIT_filename)['arr_0']
+CPS_PSF = np.load(IMIT_Sim_filename)['arr_0']
+drax.cutsPSF_bench(roket_file, CPS_PSF, P2S_PSF, GAM_PSF_FIT)
+print('GAM Fitted SR:' + str(np.amax(GAM_PSF_FIT)))
+#print('GAM Not Fitted SR:' + str(np.amax(GAM_PSF_NOTFIT)))
+#print('Roket SR:' + str(np.amax(Rok_PSF)))
+print('COMPASS SR:' + str(np.amax(CPS_PSF)))
+print('P2S SR:' + str(np.amax(P2S_PSF)))
+
