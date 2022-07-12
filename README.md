@@ -20,12 +20,13 @@ To train your own model, run the generator script to build a dataset with COMPAS
 
 python I2IT_train.py --dataroot ./r0_093_W10_p512_s9999/ --load_size=512 --netG=unet_256 --input_nc=1 --output_nc=1 --dataset_mode pistonDivConst10 --name test_GAOL --model pix2pixExM --direction AtoB --ngf 64 --ndf 64 --lambda_L1 150 --lambda_Ex 30
 
-Animation for one of our more recent simulated experiments - using SPHERE parameters and including the DM shape with the Wavefront Sensor image:
-
+#Animation for one of our more recent simulated experiments - using SPHERE parameters and including the DM shape with the Wavefront Sensor image:
 ![animated_from_images](https://user-images.githubusercontent.com/104841506/178396080-5f5ce8a9-7679-4fd3-bc94-da9fc105f0b3.gif)
 
-*note that while this looks impresive, we are just subtracting the inferred wavefront from the closed loop output. While this gives a good look at the instataneous correction, this example is not a real time control experiment. SPHERE instrument detail: https://www.eso.org/sci/facilities/paranal/instruments/sphere.html
+*While this gives a good look at the instataneous correction, this example is not a real time control experiment. SPHERE instrument detail: https://www.eso.org/sci/facilities/paranal/instruments/sphere.html
 
+#Instantaneous comparison for simulated control with GAOL AO vs purely linear control. 
+![3_grey](https://user-images.githubusercontent.com/104841506/178396370-af214a9c-bc33-473a-9e19-29a86c257d73.png)
 
 #
 #
