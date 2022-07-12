@@ -22,9 +22,9 @@ python I2IT_train.py --dataroot ./r0_093_W10_p512_s9999/ --load_size=512 --netG=
 
 Animation for one of our more recent simulated experiments - using SPHERE parameters and including the DM shape with the Wavefront Sensor image:
 
-![animated_from_images](https://user-images.githubusercontent.com/104841506/178138053-ff97923d-7a43-4487-b406-d550143b9194.gif)
+![animated_from_images](https://user-images.githubusercontent.com/104841506/178396080-5f5ce8a9-7679-4fd3-bc94-da9fc105f0b3.gif)
 
-*note that while this looks impresive, we are just subtracting the inferred wavefront from the closed loop output and calculating the PSF from this difference in the case of 'AI on'. While this gives a good look at the instataneous correction, this example is not a real time control experiment. SPHERE instrument detail: https://www.eso.org/sci/facilities/paranal/instruments/sphere.html
+*note that while this looks impresive, we are just subtracting the inferred wavefront from the closed loop output. While this gives a good look at the instataneous correction, this example is not a real time control experiment. SPHERE instrument detail: https://www.eso.org/sci/facilities/paranal/instruments/sphere.html
 
 
 #
