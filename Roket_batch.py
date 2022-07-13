@@ -1,3 +1,10 @@
+"""
+Script to create roket buffer files from a directory of COMPASS paramater files
+!!! Update for you local paths etc. !!!
+Written By Jeffrey Smith
+
+"""
+
 import os
 from tqdm import tqdm
 import subprocess
