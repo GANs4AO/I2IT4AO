@@ -15,7 +15,7 @@ for filename in os.listdir(directory):
         print(os.path.join(directory, filename))
         #os.system("python3 /home/jeff/shesha/guardians/roket.py /home/jeff/GITs/COMPASS/r0_batch/r0_35_W10_p512_s9999.py")# + os.path.join(directory, filename))
         os.system('python3 ~/shesha/guardians/roket.py ' + os.path.join(directory, filename))
-        os.rename('~/roket_output/roket_default.h5', '~/roket_output/batch/roket_' + filename + '.h5')
+        os.rename('./roket_output/roket_default.h5', './roket_output/roket_' + filename + '.h5')
 
     else:
         continue
