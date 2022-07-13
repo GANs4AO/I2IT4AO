@@ -14,13 +14,19 @@ What does it do.
 (available in this project - see unpacking instructions in the checkpoints folder for 'Direct Amplitude' Network)
 
 + Creating the Roket Buffers (ie. building a statistical model for the AO system)
+The roket buffers for the statistical estimation model are large, so I have not included them in the repo. I have a script for building them from a directory of config files - see the 'Roket_batch' script in the repo root folder.
 
-+ Building a Long Exposure PSF from the pre-trained network 
++ Building a Long Exposure PSF from the pre-trained network
+To create the inferred long exposure PSF the AO loop must be run and each inference is converted to a PSF and then averaged over the range of short exposure PSFs. Use the LEPSF_r0var_Div10 script as per the example below.
+
+	Example LEPSF command:
+python3 -i LEPSF_r0var_Div10.py --dataroot ~/GITs/wavefrontestimation_i2it/trainingdata/Sample_r012/ --load_size=512 --netG=unet_256 --input_nc=1 --output_nc=1 --dataset_mode pistonDivConst10 --name DirectAmplitude_test --model pix2pixExM --direction AtoB --num_test 20000 --ngf 64 --ndf 64 --epoch 65
 
 + Split code (drax update)
+I have included the 'split code' as text files. Run these from the COMPASS '~shesha/guardians' folder in python. You will need to copy the 'drax.py' file over the one on the guardians folder as it has been augmented to add a second comparison. 
 
 + Circular Average and Long Exposure PSF view
-
+use the script 'LEPSF_Paper_CirAvg' to generate the circuar average and top-down long exposer PSF chart from the paper. Modify paths and file names.
 
 ----------------------------------------------------------------------
 %%%GAN Assisted Open Loop (GAOL) Experimentation from trained model%%%
