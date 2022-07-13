@@ -2,5 +2,42 @@ Image to Image Translation for Adaptive Optics - The Instructions!
 
 Written by Jeffrey Smith
 
+These People...
+These papers...
 
+What is it
+What does it do.
+
+-----------------------------------------------------------
+%%%PSF Reconstruction Experimentation from trained model%%%
+-----------------------------------------------------------
+(available in this project - see unpacking instructions in the checkpoints folder for 'Direct Amplitude' Network)
+
++ Creating the Roket Buffers (ie. building a statistical model for the AO system)
+
++ Building a Long Exposure PSF from the pre-trained network 
+
++ Split code
+
++ Circular Average and Long Exposure PSF view
+
+
+----------------------------------------------------------------------
+%%%GAN Assisted Open Loop (GAOL) Experimentation from trained model%%%
+----------------------------------------------------------------------
+
++ Just hit go on notebook!
+
++ Adjust parameters to get results from paper.
+
+
+
+
+--------------------------------
+%%%Training your own networks%%%
+--------------------------------
+
+cGAN
+
+UNET
 
