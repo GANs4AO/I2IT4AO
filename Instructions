@@ -17,7 +17,7 @@ What does it do.
 
 + Building a Long Exposure PSF from the pre-trained network 
 
-+ Split code
++ Split code (drax update)
 
 + Circular Average and Long Exposure PSF view
 
@@ -26,7 +26,7 @@ What does it do.
 %%%GAN Assisted Open Loop (GAOL) Experimentation from trained model%%%
 ----------------------------------------------------------------------
 
-+ Link to Jupyter notebook
+We do not use the Guardian tools from COMPASS for GAOL. The whole experimental workflow (once you have a trained network) can be done in the 'GAOL_Control' jupyter notebook. This is already configured for the pre trained network (you will need to unzip the network locally).
 
 + Adjust parameters to get results from paper.
 
@@ -36,6 +36,19 @@ What does it do.
 --------------------------------
 %%%Training your own networks%%%
 --------------------------------
+
+Training your own network requires some powerful GPUs so be prepared. GANs consume a lot of resources during training.
+
++ First step is to generate a large quantity of data. The Data_Generation folder in the project contains a COMPASS config file and a script to generate data used in the paper results we have published. Feel free to modify. We have subsequently used several atmospheric seeds to generate more diverse data, as well as adding other layers such as the DM screen to the training data set. (This significantly improves results - paper to come soon). 
+
++ Once you have your data, run the below command to train in the fasion of the pretrained model in the repo. There is a wide scope to change not only the AO loop parameters (COMPASS) but also the training paramters.
+
+	Example cGAN training comand:
+python I2IT_train.py --dataroot ./r0_093_W10_p512/ --load_size=512 --netG=unet_256 --input_nc=1 --output_nc=1 --dataset_mode pistonDivConst10 --name test_network --model pix2pixExM --direction AtoB --ngf 64 --ndf 64 --lambda_L1 150 --lambda_Ex 30
+
+Training a GAN seems to be both art and science - mode collapse is easy to see as the Discriminator loss typically drops to zero. Preventing this requires good data knowledge, the right training parameters and arguably practice!
+
+
 
 cGAN
 
