@@ -9,7 +9,7 @@ What is it
 What does it do.
 
 -----------------------------------------------------------
-%%%PSF Reconstruction Experimentation from trained model%%%
+%%%PSF Reconstruction Experimentation from trained network%%%
 -----------------------------------------------------------
 (available in this project - see unpacking instructions in the checkpoints folder for 'Direct Amplitude' Network)
 
@@ -29,7 +29,7 @@ I have included the 'split code' as text files. Run these from the COMPASS '~she
 use the script 'LEPSF_Paper_CirAvg' to generate the circuar average and top-down long exposer PSF chart from the paper. Modify paths and file names.
 
 ----------------------------------------------------------------------
-%%%GAN Assisted Open Loop (GAOL) Experimentation from trained model%%%
+%%%GAN Assisted Open Loop (GAOL) Experimentation from trained network%%%
 ----------------------------------------------------------------------
 
 We do not use the Guardian tools from COMPASS for GAOL. The whole experimental workflow (once you have a trained network) can be done in the 'GAOL_Control' jupyter notebook. This is already configured for the pre trained network (you will need to unzip the network locally).
