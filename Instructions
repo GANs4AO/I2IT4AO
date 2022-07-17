@@ -8,6 +8,10 @@ These papers:
 What is it
 What does it do.
 
+
++ Getting started with pretrained model:
+To use pretrained model from paper after downloading the repo, go into the checkpoint folder and extract the generator network from zips (see the 'read me' in the folder).
+
 -----------------------------------------------------------
 %%%PSF Reconstruction Experimentation from trained network%%%
 -----------------------------------------------------------
@@ -59,4 +63,6 @@ Training a GAN seems to be both art and science - mode collapse is easy to see a
 cGAN
 
 UNET
+
+To use pretrained model from paper after downloading the repo, go into the checkpoint folder and extract the generator network from zips (see the 'read me' in the folder).
 
