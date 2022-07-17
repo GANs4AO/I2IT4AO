@@ -2,7 +2,7 @@
 ## *** Under Construction***
 **This project aims to improve the science return of future and existing large, ground-based optical telescopes by improving estimation of the wavefront phase. Our approach is to apply image translation using CNNs, specifically conditional Generative Adversarial Networks (cGANSs) to interprete wavefront information from a Shack-Hartmann Wavefront Sensor (SH-WFS) and generate accurate, high fidelity wavefront estimates using Adaptive Optics (AO) control loop data.**
 
-This GIT repo contains supporting code for conference proceedings:
+This github repo contains supporting code for conference proceedings:
 
 UAI 2022 paper "**Enhanced Adaptive Optics Control with Image to Image Translation**"  and
 
