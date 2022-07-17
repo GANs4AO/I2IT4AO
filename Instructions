@@ -10,7 +10,7 @@ What does it do.
 
 
 + Getting started with pretrained model:
-To use pretrained model from paper after downloading the repo, go into the checkpoint folder and extract the generator network from zips (see the 'read me' in the folder).
+To use pretrained model from paper after downloading the repo, go into the checkpoint folder and extract the generator network from zips (see the 'read me' in the folder 'checkpoints/Direct_Amplitude/).
 
 -----------------------------------------------------------
 %%%PSF Reconstruction Experimentation from trained network%%%
