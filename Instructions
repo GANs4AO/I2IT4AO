@@ -36,7 +36,7 @@ use the script 'LEPSF_Paper_CirAvg' to generate the circuar average and top-down
 %%%GAN Assisted Open Loop (GAOL) Experimentation from trained network%%%
 ----------------------------------------------------------------------
 
-We do not use the Guardian tools from COMPASS for GAOL. The whole experimental workflow (once you have a trained network) can be done in the 'GAOL_Control' jupyter notebook. This is already configured for the pre trained network (you will need to unzip the network locally).
+We do not use the Guardian tools from COMPASS for GAOL. The entire experimental workflow (once you have a trained network) can be done in the 'GAOL_Control' jupyter notebook. This is already configured for the pre trained network (you will need to unzip the network locally).
 
 + Adjust parameters to get results from paper.
 
@@ -56,7 +56,7 @@ Training your own network requires some powerful GPUs so be prepared. GANs consu
 	Example cGAN training comand:
 python I2IT_train.py --dataroot ./r0_093_W10_p512/ --load_size=512 --netG=unet_256 --input_nc=1 --output_nc=1 --dataset_mode pistonDivConst10 --name test_network --model pix2pixExM --direction AtoB --ngf 64 --ndf 64 --lambda_L1 150 --lambda_Ex 30
 
-Training a GAN seems to be both art and science - mode collapse is easy to see as the Discriminator loss typically drops to zero. Preventing this requires good data knowledge, the right training parameters and arguably practice!
+Training a GAN seems to be both art and science - mode collapse is easy to see as the discriminator loss typically drops to zero, and the generated images are flawed with persistant artifacts. Preventing this requires good data knowledge, the right training parameters and arguably practice!
 
 
 
