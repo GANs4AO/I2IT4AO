@@ -50,6 +50,7 @@ We do not use the Guardian tools from COMPASS for GAOL. The entire experimental 
 Training your own network requires some powerful GPUs so be prepared. GANs consume a lot of resources during training.
 
 + First step is to generate a large quantity of data. The Data_Generation folder in the project contains a COMPASS config file and a script to generate data used in the paper results we have published. Feel free to modify. We have subsequently used several atmospheric seeds to generate more diverse data, as well as adding other layers such as the DM screen to the training data set. (This significantly improves results - paper to come soon). 
+++ Note that the 'piston' mode must be removed from the generated wavefront samples. This is due to the WFS not capturing this information and will generally cause poor training (i.e. mode collapse!)
 
 + Once you have your data, run the below command to train in the fasion of the pretrained model in the repo. There is a wide scope to change not only the AO loop parameters (COMPASS) but also the training paramters.
 
