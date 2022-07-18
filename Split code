@@ -1,3 +1,9 @@
+"""
+This code will generate the split view or X - Y cross-section plot for the Long Exposure PSF analysis
+Written by Jeffrey Smith
+
+***Note that you will need to run this from the COMPASS tools folder shesha/guardians and upade the drax.py code witth the one from the root of this project.***
+"""
 import drax
 import gamora
 import numpy as np
