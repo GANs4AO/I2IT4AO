@@ -59,11 +59,12 @@ python I2IT_train.py --dataroot ./r0_093_W10_p512/ --load_size=512 --netG=unet_2
 
 Training a GAN seems to be both art and science - mode collapse is easy to see as the discriminator loss typically drops to zero, and the generated images are flawed with persistant artifacts. Preventing this requires good data knowledge, the right training parameters and arguably practice!
 
-
-
 cGAN
+The cGAN model is 'pix2pixExM'. This includes the Masked loss term as well - to test without the masked loss, set the training parameter 'Lambda_Ex' to zero.
 
 UNET
+You can use the UNet model by changing the training / testing model param to 'UNetL1ExM'
+
 
 To use pretrained model from paper after downloading the repo, go into the checkpoint folder and extract the generator network from zips (see the 'read me' in the folder).
 
