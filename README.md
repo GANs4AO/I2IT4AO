@@ -1,6 +1,8 @@
 # Image to Image Translation for Adaptive Optics (I2IT4AO) 
-## *** Under Construction***
-**This project aims to improve the science return of future and existing large, ground-based optical telescopes by improving estimation of the wavefront phase. Our approach is to apply image translation using CNNs, specifically conditional Generative Adversarial Networks (cGANSs) to interprete wavefront information from a Shack-Hartmann Wavefront Sensor (SH-WFS) and generate accurate, high fidelity wavefront estimates using Adaptive Optics (AO) control loop data.**
+
+**This project aims to improve the science return of future and existing large, ground-based optical telescopes by improving estimation of the wavefront phase. Our approach is to apply image translation using CNNs, specifically conditional Generative Adversarial Networks (cGANs) to interprete wavefront information from a Shack-Hartmann Wavefront Sensor (SH-WFS) image and generate accurate, high fidelity wavefront estimates using Adaptive Optics (AO) control loop data.**
+
+**We demonstrate that cGAN wavefront estimation produces excelent results in simulation for PSF recontruction and with the GAN Assisted Open Loop methodology there is potential for real time control applications. Other possible benifits not discussed in papers are detection of waffle mode**
 
 This github repo contains supporting code for conference proceedings:
 
@@ -12,6 +14,7 @@ SPIE AO VIII paper "**Image to image translation for wavefront and PSF estimatio
 Please cite these papers if you use this code in your research.
 
 This code was written / adapted by Jeffrey Smith and Jesse Cranney.
+Code is functional but is in the process of cleaning up!
 
 Please see the 'Instructions' for how to use this repo.
 
