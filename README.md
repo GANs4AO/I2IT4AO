@@ -2,7 +2,7 @@
 
 **This project aims to improve the science return of future and existing large, ground-based optical telescopes by improving estimation of the wavefront phase. Our approach is to apply image translation using CNNs, specifically conditional Generative Adversarial Networks (cGANs) to interpret wavefront information from a Shack-Hartmann Wavefront Sensor (SH-WFS) image and generate accurate, high fidelity wavefront estimates using Adaptive Optics (AO) control loop data.**
 
-**We demonstrate that cGAN wavefront estimation produces excellent results in simulation for PSF reconstruction and with the GAN Assisted Open Loop methodology there is potential for real time control applications. Other possible benefits not discussed in papers are detection of waffle mode**
+**We demonstrate that cGAN wavefront estimation produces excellent results in simulation for PSF reconstruction and with the GAN Assisted Open Loop methodology there is potential for real time control applications. Other possible benefits not discussed in papers are detection of waffle mode and good low strehl performance in high wind (50m/s)**
 
 This github repo contains supporting code for conference proceedings:
 
