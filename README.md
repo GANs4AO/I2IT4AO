@@ -7,8 +7,11 @@
 This github repo contains supporting code for conference proceedings:
 
 UAI 2022 paper "**Enhanced Adaptive Optics Control with Image to Image Translation**"  and
+Jeffrey Smith, Jesse Cranney, Charles Gretton, Damien Gratadour, "Enhanced adaptive optics control with image to image translation," Proceedings of the Thirty-Eighth Conference on Uncertainty in Artificial Intelligence, PMLR 180:1846-1856, 2022. https://proceedings.mlr.press/v180/smith22a.html
+
 
 SPIE AO VIII paper "**Image to image translation for wavefront and PSF estimation**" 
+Jeffrey Smith, Jesse Cranney, Charles Gretton, Damien Gratadour, "Image-to-image translation for wavefront and PSF estimation," Proc. SPIE 12185, Adaptive Optics Systems VIII, 121852L (29 August 2022); https://doi.org/10.1117/12.2629638
 
 **by Jeffrey Smith, Jesse Craney, Charles Gretton and Damien Gratadour.**
 Please cite these papers if you use this code in your research.
@@ -40,12 +43,27 @@ https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
 
 Project based on this paper:
 _Image-to-Image Translation with Conditional Adversarial Networks.
-Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros. In CVPR 2017. [Bibtex]_
+Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros. In CVPR 2017.
 
 Our work relies heavily of Numerical methods (and code / methods) developed by this work:
 _F Ferreira, E Gendron, G Rousset, and D Gratadour. Numerical estimation of wavefront error breakdown in adaptive optics. 
 Astronomy and astrophysics (Berlin), 616:A102, 2018a_
 
+**UPDATE** 
+This initial work lead to some great results for PSF Reconstruction, AO real time control and atmospheric parameter estimation, and Free Space Optical Communication. Please see the following papers that this work facilitated:
+
+B. Pou, J. Smith, E. Quinones, M. Martin, D. Gratadour, **"Model-free reinforcement learning with a non-linear reconstructor for closed-loop adaptive optics control with a pyramid wavefront sensor,"** Proc. SPIE 12185, Adaptive Optics Systems VIII, 121852U (29 August 2022); https://doi.org/10.1117/12.2627849
+
+Jeffrey Smith, Jesse Cranney, Charles Gretton, Damien Gratadour, **"Image-to-image translation for wavefront and point spread function estimation,"** J. Astron. Telesc. Instrum. Syst. 9(1) 019001 (19 January 2023) https://doi.org/10.1117/1.JATIS.9.1.019001
+
+Jeffrey Peter Smith, Jesse Cranney, Charles Gretton, Damien Gratadour. **"A Study of Network-based Wavefront Estimation with Noise,"** Adaptive Optics for Extremely Large Telescopes 7th Edition, ONERA, Jun 2023, Avignon, France. https://dx.doi.org/10.13009/AO4ELT7-2023-084
+
+B. Pou, J. Smith, E. Quinones, M. Martin, and D. Gratadour, **"Integrating supervised and reinforcement learning for predictive control with an unmodulated pyramid wavefront sensor for adaptive optics,"** Opt. Express 32, 37011-37035 (2024). https://doi.org/10.1364/OE.530254
+
+Smith, J., Fujii, T., Craney, J., & Gretton, C. (2025). **"Fried Parameter Estimation from Single Wavefront Sensor Image with Artificial Neural Networks,"** https://doi.org/10.48550/arXiv.2504.17029
+
+
+**Acknowledgements:**
 This work was supported in part by Oracle Cloud credits
 and related resources provided by the Oracle for Research
 program.
