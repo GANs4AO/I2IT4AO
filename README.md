@@ -9,7 +9,6 @@ This github repo contains supporting code for conference proceedings:
 UAI 2022 paper "**Enhanced Adaptive Optics Control with Image to Image Translation**"  and
 Jeffrey Smith, Jesse Cranney, Charles Gretton, Damien Gratadour, "Enhanced adaptive optics control with image to image translation," Proceedings of the Thirty-Eighth Conference on Uncertainty in Artificial Intelligence, PMLR 180:1846-1856, 2022. https://proceedings.mlr.press/v180/smith22a.html
 
-
 SPIE AO VIII paper "**Image to image translation for wavefront and PSF estimation**" 
 Jeffrey Smith, Jesse Cranney, Charles Gretton, Damien Gratadour, "Image-to-image translation for wavefront and PSF estimation," Proc. SPIE 12185, Adaptive Optics Systems VIII, 121852L (29 August 2022); https://doi.org/10.1117/12.2629638
 
@@ -53,7 +52,7 @@ Astronomy and astrophysics (Berlin), 616:A102, 2018a_
 .
 .
 
-**UPDATE: 
+**UPDATE 2025: 
 This initial work lead to some great results for PSF Reconstruction, AO real time control and atmospheric parameter estimation, and Free Space Optical Communication. Please see the following papers that this work facilitated:**
 
 B. Pou, J. Smith, E. Quinones, M. Martin, D. Gratadour, **"Model-free reinforcement learning with a non-linear reconstructor for closed-loop adaptive optics control with a pyramid wavefront sensor,"** Proc. SPIE 12185, Adaptive Optics Systems VIII, 121852U (29 August 2022); https://doi.org/10.1117/12.2627849
@@ -66,19 +65,17 @@ B. Pou, J. Smith, E. Quinones, M. Martin, and D. Gratadour, **"Integrating super
 
 Smith, J., Fujii, T., Craney, J., & Gretton, C. (2025). **"Fried Parameter Estimation from Single Wavefront Sensor Image with Artificial Neural Networks,"** https://doi.org/10.48550/arXiv.2504.17029
 
+We won a runner up prize in the Oracle 2023 Eureka awards: https://blogs.oracle.com/research/post/and-the-winner-of-the-oracle-eureka-award-2023-is- 
+See Oracle's write up of this project here: https://blogs.oracle.com/research/post/australian-national-university-helps-astronomers-see-further-with-ai 
+
 .
 .
 .
 
 **Acknowledgements:**
-This work was supported in part by Oracle Cloud credits
-and related resources provided by the Oracle for Research
-program.
+This work was supported in part by Oracle Cloud credits and related resources provided by the Oracle for Research program.
 
-This research was undertaken with the assistance of re-
-sources from the National Computational Infrastructure
-(NCI Australia), an NCRIS enabled capability supported by
-the Australian Government.
+This research was undertaken with the assistance of resources from the National Computational Infrastructure (NCI Australia), an NCRIS enabled capability supported by the Australian Government.
 
 **Contact:**
 I've finished my PhD, and after quite a bit of searching have not found anywhere to continue this work professionally, although I am aware it is being used in several areas of research, particularly in FSO and AO sensors though this has yet to be acknowledged. It remains a hobby where time permits, so if you would like to discuss applications of adaptations please feel free to contact me. There is of course a great deal of knowledge that is left out of publications and in this case there is quite a bit, such as that these non-linear ML methods can resolve non-linear control effects such as waffle mode. Happy to discuss this work, even just for a chat if someone is interested. Thesis is available here: https://doi.org/10.25911/907J-TF20 Final thesis code repo at Zenodo here: https://doi.org/10.5281/zenodo.10042313
