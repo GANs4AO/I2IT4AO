@@ -80,7 +80,9 @@ sources from the National Computational Infrastructure
 (NCI Australia), an NCRIS enabled capability supported by
 the Australian Government.
 
-**Contact**
-I've finished my PhD, and after quite a bit of searching have not found anywhere to continue this work professionally, although I am aware it is being used in several areas of research. It remains a hobby where time permits, so if you would like to discuss applications of adaptations please feel free to contact me at (Dr.Smith.Prime @ Gmail).
+**Contact:**
+I've finished my PhD, and after quite a bit of searching have not found anywhere to continue this work professionally, although I am aware it is being used in several areas of research, particularly in FSO and AO sensors. It remains a hobby where time permits, so if you would like to discuss applications of adaptations please feel free to contact me at (Dr.Smith.Prime @ Gmail).
 
 Oh, the pain. 
+
+![](lost-space-robot-will-1405924972.jpg)
