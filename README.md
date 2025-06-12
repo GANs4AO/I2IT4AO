@@ -49,6 +49,10 @@ Our work relies heavily of Numerical methods (and code / methods) developed by t
 _F Ferreira, E Gendron, G Rousset, and D Gratadour. Numerical estimation of wavefront error breakdown in adaptive optics. 
 Astronomy and astrophysics (Berlin), 616:A102, 2018a_
 
+.
+.
+.
+
 **UPDATE: 
 This initial work lead to some great results for PSF Reconstruction, AO real time control and atmospheric parameter estimation, and Free Space Optical Communication. Please see the following papers that this work facilitated:**
 
@@ -62,6 +66,9 @@ B. Pou, J. Smith, E. Quinones, M. Martin, and D. Gratadour, **"Integrating super
 
 Smith, J., Fujii, T., Craney, J., & Gretton, C. (2025). **"Fried Parameter Estimation from Single Wavefront Sensor Image with Artificial Neural Networks,"** https://doi.org/10.48550/arXiv.2504.17029
 
+.
+.
+.
 
 **Acknowledgements:**
 This work was supported in part by Oracle Cloud credits
