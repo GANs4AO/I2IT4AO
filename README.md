@@ -81,7 +81,7 @@ sources from the National Computational Infrastructure
 the Australian Government.
 
 **Contact:**
-I've finished my PhD, and after quite a bit of searching have not found anywhere to continue this work professionally, although I am aware it is being used in several areas of research, particularly in FSO and AO sensors. It remains a hobby where time permits, so if you would like to discuss applications of adaptations please feel free to contact me at (Dr.Smith.Prime @ Gmail). Thesis is available here: https://doi.org/10.25911/907J-TF20
+I've finished my PhD, and after quite a bit of searching have not found anywhere to continue this work professionally, although I am aware it is being used in several areas of research, particularly in FSO and AO sensors though this has yet to be acknowledged. It remains a hobby where time permits, so if you would like to discuss applications of adaptations please feel free to contact me at (Dr.Smith.Prime @ Gmail). There is of course a great deal of knowledge that is left out of publications and in this case there is quite a bit, such as that these non-linear ML methods can resolve non-linear control effects such as waffle mode. Happy to discuss this work, even just for a chat if someone is interested. Thesis is available here: https://doi.org/10.25911/907J-TF20
 
 Oh, the pain. 
 
