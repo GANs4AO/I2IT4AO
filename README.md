@@ -81,7 +81,7 @@ sources from the National Computational Infrastructure
 the Australian Government.
 
 **Contact:**
-I've finished my PhD, and after quite a bit of searching have not found anywhere to continue this work professionally, although I am aware it is being used in several areas of research, particularly in FSO and AO sensors. It remains a hobby where time permits, so if you would like to discuss applications of adaptations please feel free to contact me at (Dr.Smith.Prime @ Gmail).
+I've finished my PhD, and after quite a bit of searching have not found anywhere to continue this work professionally, although I am aware it is being used in several areas of research, particularly in FSO and AO sensors. It remains a hobby where time permits, so if you would like to discuss applications of adaptations please feel free to contact me at (Dr.Smith.Prime @ Gmail). Thesis is available here: https://doi.org/10.25911/907J-TF20
 
 Oh, the pain. 
 
