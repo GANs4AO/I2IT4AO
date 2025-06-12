@@ -49,8 +49,8 @@ Our work relies heavily of Numerical methods (and code / methods) developed by t
 _F Ferreira, E Gendron, G Rousset, and D Gratadour. Numerical estimation of wavefront error breakdown in adaptive optics. 
 Astronomy and astrophysics (Berlin), 616:A102, 2018a_
 
-**UPDATE** 
-This initial work lead to some great results for PSF Reconstruction, AO real time control and atmospheric parameter estimation, and Free Space Optical Communication. Please see the following papers that this work facilitated:
+**UPDATE: 
+This initial work lead to some great results for PSF Reconstruction, AO real time control and atmospheric parameter estimation, and Free Space Optical Communication. Please see the following papers that this work facilitated:**
 
 B. Pou, J. Smith, E. Quinones, M. Martin, D. Gratadour, **"Model-free reinforcement learning with a non-linear reconstructor for closed-loop adaptive optics control with a pyramid wavefront sensor,"** Proc. SPIE 12185, Adaptive Optics Systems VIII, 121852U (29 August 2022); https://doi.org/10.1117/12.2627849
 
